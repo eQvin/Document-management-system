@@ -1,0 +1,32 @@
+2019-03-25 17:39:17.362 +06 [12880] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-25 17:39:17.362 +06 [12880] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1" WHERE "Extent1"."ContextKey" = (('Chat.Models.ChatDbContext'))) AS "GroupBy1"
+2019-03-25 17:39:17.397 +06 [12880] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-25 17:39:17.397 +06 [12880] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-25 17:39:17.421 +06 [12880] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-25 17:39:17.421 +06 [12880] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1" WHERE "Extent1"."ContextKey" = (('Chat.Models.ChatDbContext'))) AS "GroupBy1"
+2019-03-25 17:39:17.427 +06 [12880] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-25 17:39:17.427 +06 [12880] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-25 17:39:17.627 +06 [12880] ОШИБКА:  отношение "dbo.EdmMetadata" не существует (символ 51)
+2019-03-25 17:39:17.627 +06 [12880] ОПЕРАТОР:  SELECT "Extent1"."Id", "Extent1"."ModelHash" FROM "dbo"."EdmMetadata" AS "Extent1" ORDER BY "Extent1"."Id" DESC  LIMIT 1
+2019-03-25 17:48:26.661 +06 [12880] ОШИБКА:  отношение "public.Conversations" не существует (символ 66)
+2019-03-25 17:48:26.661 +06 [12880] ОПЕРАТОР:  SELECT "Extent1"."id", "Extent1"."user1", "Extent1"."user2" FROM "public"."Conversations" AS "Extent1" WHERE "Extent1"."user1" = (('timur.keten@gmail.com')) OR "Extent1"."user1" IS NULL AND (('timur.keten@gmail.com')) IS NULL OR ("Extent1"."user2" = (('timur.keten@gmail.com')) OR "Extent1"."user2" IS NULL AND (('timur.keten@gmail.com')) IS NULL)
+2019-03-25 17:48:53.071 +06 [12880] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-25 18:57:49.425 +06 [6260] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-25 18:57:49.425 +06 [6260] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-25 18:57:49.721 +06 [6260] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-25 18:57:49.721 +06 [6260] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-25 18:57:49.859 +06 [6260] ОШИБКА:  отношение "dbo.EdmMetadata" не существует (символ 51)
+2019-03-25 18:57:49.859 +06 [6260] ОПЕРАТОР:  SELECT "Extent1"."Id", "Extent1"."ModelHash" FROM "dbo"."EdmMetadata" AS "Extent1" ORDER BY "Extent1"."Id" DESC  LIMIT 1
+2019-03-26 11:31:38.239 +06 [6052] ��������������:  worker took too long to start; canceled
+2019-03-26 11:31:46.891 +06 [22736] ��������������:  autovacuum worker started without a worker entry
+2019-03-26 21:53:28.673 +06 [9612] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-26 21:53:28.673 +06 [26272] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-26 21:53:28.673 +06 [20036] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-26 21:53:28.673 +06 [10660] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-28 20:31:55.742 +06 [6052] ��������������:  worker took too long to start; canceled
+2019-03-28 20:31:57.491 +06 [10044] ��������������:  autovacuum worker started without a worker entry

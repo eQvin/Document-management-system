@@ -1,0 +1,398 @@
+﻿<link href="~/Content/Css/personalPage.css" rel="stylesheet" />
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages and Chats</a>
+                <a class="nav-link" id="v-pills-documents-tab" data-toggle="pill" href="#v-pills-documents" role="tab" aria-controls="v-pills-documents" aria-selected="false">Document flow</a>
+                <a class="nav-link" id="v-pills-user-settings-tab" data-toggle="pill" href="#v-pills-user-settings" role="tab" aria-controls="v-pills-user-settingss" aria-selected="false">User</a>
+                <a class="nav-link" id="v-pills-company-setting-tab" data-toggle="pill" href="#v-pills-company-settings" role="tab" aria-controls="v-pills-company-settings" aria-selected="false">Company</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-departments-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Departments</a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <img src="~/img/HomeBg/4dms.png" alt="Document managemant system" style="width:100%;height:100%;" />
+                </div>
+
+
+                @*Profile*@
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-profile-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-user-tab" data-toggle="tab" href="#nav-user" role="tab" aria-controls="nav-user" aria-selected="true">User profile</a>
+                            <a class="nav-item nav-link" id="nav-user-settings-tab" data-toggle="tab" href="#nav-user-settings" role="tab" aria-controls="nav-user" aria-selected="false">Profile Settings</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-companyContent">
+                        <div class="tab-pane fade show active" id="nav-user" role="tabpanel" aria-labelledby="nav-user-tab">
+                            <ul class="list-group marginTop">
+                                <li class="list-group-item active">Full Name : @Model.User.first_name @Model.User.last_name @Model.User.sur_name</li>
+                                <li class="list-group-item">Birthday : @Model.User.birth_day</li>
+                                <li class="list-group-item">Register day : @Model.User.register_day</li>
+                                <li class="list-group-item">IIN/ID : @Model.User.iin</li>
+                                <li class="list-group-item">Sex : @if (Model.User.sex == 0)
+                                {<span>Male</span>}
+                                else
+                                { <span>Female</span>}</li>
+                                <li class="list-group-item">
+                                    Position : @if (Model.User.position == 1)
+                                    {<span>Executive</span>}
+                                    else
+                                    { <span>Employee</span>}
+                                </li>
+                                <li class="list-group-item">Telefon : @Model.User.tel_number</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-user-settings" role="tabpanel" aria-labelledby="nav-user-settings-tab">
+                            <div class="companySetting marginTop">
+                                <div class="form-group row">
+                                    <label for="user-first_name-change" class="col-2 col-form-label">First name</label>
+                                    <div class="col-10">
+                                        <input class="form-control userSettigsInput" type="text" required value="@Model.User.first_name" id="user-first_name-change">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="user-last_name-change" class="col-2 col-form-label">Last name</label>
+                                    <div class="col-10">
+                                        <input class="form-control userSettigsInput" type="text" required value="@Model.User.last_name" id="user-last_name-change">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="user-sur_name-change" class="col-2 col-form-label">Surname</label>
+                                    <div class="col-10">
+                                        <input class="form-control userSettigsInput" type="text" required value="@Model.User.sur_name" id="user-sur_name-change">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="user-birth_day-change" class="col-2 col-form-label">Birthday</label>
+                                    <div class="col-10">
+                                        <input class="form-control userSettigsInput" type="text" required value="@Model.User.birth_day" id="user-birth_day-change">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="user-iin-change" class="col-2 col-form-label">IIN/ID</label>
+                                    <div class="col-10">
+                                        <input class="form-control userSettigsInput" type="text" required value="@Model.User.iin" id="user-iin-change">
+                                    </div>
+                                </div>
+                                <fieldset class="form-group">
+                                    <div class="row">
+                                        <legend class="col-form-label col-sm-2 pt-0">Sex</legend>
+                                        <div class="col-sm-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gendersUser" id="sex-user-change-1" value="0" checked>
+                                                <label class="form-check-label" for="sex-user-change-1">
+                                                    Male
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gendersUser" id="sex-user-change-2" value="1">
+                                                <label class="form-check-label" for="sex-user-change-2">
+                                                    Female
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="form-group row">
+                                    <label for="user-tell-change" class="col-2 col-form-label">Telefon</label>
+                                    <div class="col-10">
+                                        <input class="form-control userSettigsInput" name="tell" type="text" required value="@Model.User.tel_number" id="user-tell-change">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="offset-sm-2 col-sm-10">
+                                        <button type="button" class="btn btn-primary btn-block" id="user-settings-btn">Submit changes</button>
+                                    </div>
+                                </div>
+                                <div class="alert alert-success" role="alert" id="user-changes-success" style="display:none;">Changes saved!</div>
+                                <div class="alert alert-danger" role="alert" id="user-changes-danger" style="display:none;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @*Documents*@
+                <div class="tab-pane fade" id="v-pills-documents" role="tabpanel" aria-labelledby="v-pills-documents-tab">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-inbox-tab" data-toggle="tab" href="#nav-inbox" role="tab" aria-controls="nav-inbox" aria-selected="true">Inbox</a>
+                            <a class="nav-item nav-link" id="nav-send-tab" data-toggle="tab" href="#nav-send" role="tab" aria-controls="nav-send" aria-selected="false">Send document</a>
+                            <a class="nav-item nav-link" id="nav-sent-tab" data-toggle="tab" href="#nav-sent" role="tab" aria-controls="nav-sent" aria-selected="false">History documents</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-inbox" role="tabpanel" aria-labelledby="nav-inbox-tab">
+                            @foreach (var docInbox in Model.DocumentsInbox)
+                            {
+                                <div class="card marginTop">
+                                    <h5 class="card-header">@docInbox.tittle</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Information</h5>
+                                        <p class="card-text marginTop-1">Description: @docInbox.description</p>
+                                        <p class="card-text marginTop-1">
+                                            Status:
+                                            @if (docInbox.status == 0)
+                                            {<span id="docStatus_@docInbox.id" class="badge badge-secondary">Document sent</span>}
+                                            else if (docInbox.status == 1)
+                                            {<span id="docStatus_@docInbox.id" class="badge badge-primary">Document viewed</span>}
+                                            else if (docInbox.status == 2)
+                                            {<span id="docStatus_@docInbox.id" class="badge badge-danger">Document rejected</span>}
+                                            else if (docInbox.status == 3)
+                                            {<span id="docStatus_@docInbox.id" class="badge badge-success">Document confirmed</span>}
+                                        </p>
+                                        <p class="card-text marginTop-1">Date: @docInbox.date</p>
+                                        <a class="btn btn-primary marginTop" target="_blank" href="/Personal/DownloadFile/?fileName=@docInbox.file_path&id=@docInbox.id" role="button">Download</a>
+                                        <button type="button" class="btn btn-danger marginTop marginLeft" onclick="document_status_reject(this.id)" id="document_reject_@docInbox.id">Reject</button>
+                                        <button type="button" class="btn btn-success marginTop marginLeft" onclick="document_status_confirm(this.id)" id="document_confirm_@docInbox.id">Confirm</button>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div class="tab-pane fade" id="nav-send" role="tabpanel" aria-labelledby="nav-send-tab">
+                            <div class="sendDocument marginTop">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input file-input" id="uploadFile">
+                                    <label class="custom-file-label" for="uploadFile">Choose file</label>
+                                </div>
+                                <span class="badge badge-pill badge-success marginTop-1" id="fileNameInput"></span>
+                                <div class="form-group marginTop">
+                                    <label for="tittle-file-input">Tittle</label>
+                                    <input type="text" class="form-control file-input" id="tittle-file-input" placeholder="Blank">
+                                </div>
+                                <div class="form-group">
+                                    <label for="description-file-input">Description</label>
+                                    <textarea class="form-control file-input" id="description-file-input" rows="3"></textarea>
+                                </div>
+                                <div class="alert alert-success marginTop" role="alert" id="send_id-file-input" style="display:none;"></div>
+                                <div class="alert alert-warning marginTop" role="alert" id="send_id-alert-file-input" style="display:none;"></div>
+                                <button type="button" class="btn btn-primary marginTop" id="company-file-input">Company @Model.Company.company_name</button>
+
+                                <div class="list-department-file" style="display:none;">
+                                    @foreach (var dpt in Model.Departments)
+                                    {
+                                        <button type="button" class="btn btn-info marginTop marginLeft" id="department_@dpt.id" onclick="department_id(this.id)">@dpt.dpt_name</button>
+                                    }
+                                </div>
+                                <div class="list-users-file">
+                                    <div id="department-users">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block marginTop" id="submitFile">Submit</button>
+                                <div class="alert alert-success marginTop-1" role="alert" id="uploadSuccess" style="display:none;"></div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-sent" role="tabpanel" aria-labelledby="nav-sent-tab">
+                            @foreach (var docInbox in Model.DocumentsHistory)
+                            {
+                                <div class="card marginTop">
+                                    <h5 class="card-header">@docInbox.tittle</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Information</h5>
+                                        <p class="card-text marginTop-1">Description: @docInbox.description</p>
+                                        <p class="card-text marginTop-1">
+                                            Status:
+                                            @if (docInbox.status == 0)
+                                            {<span>Document sent</span>}
+                                            else if (docInbox.status == 1)
+                                            {<span>Document viewed</span>}
+                                            else if (docInbox.status == 2)
+                                            {<span>Document rejected</span>}
+                                            else if (docInbox.status == 3)
+                                            {<span>Document confirmed</span>}
+                                        </p>
+                                        <p class="card-text marginTop-1">Date: @docInbox.date</p>
+                                        <a class="btn btn-primary marginTop-1" target="_blank" href="/Personal/DownloadFile/?fileName=@docInbox.file_path&id=0" role="button">Download</a>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                    </div>
+                </div>
+
+                @*Messages*@
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="row">
+                        <div class="col-6">
+                            @if (ViewBag.UserList != null)
+                            {
+                                if (ViewBag.UserList.Count != 0)
+                                {
+                                    foreach (var c in ViewBag.UserList)
+                                    {
+                                        <a href="/Personal/Chat?email=@c.email" class="chat_tab">
+                                            <div class="chat_tab_read">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="~/img/user.png" class="img_chat img-fluid" />
+                                                    </div>
+                                                    <div class="col-md-8 chat_info">
+                                                        <p class="badge badge-pill badge-primary">Email: @c.email</p>
+                                                        <span class="badge badge-pill badge-success">FIO: @c.first_name @c.last_name @c.sur_name</span>
+                                                        <p class="name_info">ID: @c.id</p>
+                                                        <p class="name_info">IIN: @c.iin</p>
+                                                        <p class="name_info">
+                                                            Position : @if (c.position == 1)
+                                                            {<span class="badge badge-light">Executive</span>}
+                                                            else
+                                                            { <span class="badge badge-light">Employee</span>}
+                                                        </p>
+                                                        <span class="badge badge-pill badge-info">Telefon: @c.tel_number</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    }
+                                }
+                                else
+                                {
+                                    <p class="chat_message">No one with start chatting</p>
+                                }
+                            }
+                            else
+                            {
+                                <p class="chat_message main-nav"><a href="#0" class="chat_message cd-signin">Что бы Начать диолог с собеседником,</a></p>
+                            }
+                        </div>
+                        <div class="col-6">
+                            @if (ViewBag.Conversation != null)
+                            {
+                                if (ViewBag.Conversation.Count != 0)
+                                {
+                                    foreach (var c in ViewBag.Conversation)
+                                    {
+
+                                        <a href="/Personal/Chat?email=@c.otherUser" class="chat_tab">
+                                            <div class="chat_tab_read">
+                                                <div class="row">
+                                                    <div class="col-md-12 chat_info">
+                                                        <span class="name_info">@c.fname @c.lname</span>
+                                                        <div class="text_div"><span class="text_info">@c.msg</span></div>
+                                                        <p class="date_info">@c.date</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    }
+                                }
+                                else
+                                {
+                                    <p class="chat_message">No messages</p>
+                                }
+                            }
+                            else
+                            {
+                                <p class="chat_message main-nav"><a href="#0" class="chat_message cd-signin">войдите в Ваш аккаунт</a></p>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                @*User setting*@
+                <div class="tab-pane fade" id="v-pills-user-settings" role="tabpanel" aria-labelledby="v-pills-user-settings-tab">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-user-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-all-user-tab" data-toggle="tab" href="#nav-all-user" role="tab" aria-controls="nav-all-user" aria-selected="true">All company users</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-userContent">
+                        <div class="tab-pane fade show active" id="nav-all-user" role="tabpanel" aria-labelledby="nav-all-user-tab">
+                            @if (ViewBag.UserList != null)
+                            {
+                                if (ViewBag.UserList.Count != 0)
+                                {
+                                    foreach (var c in ViewBag.UserList)
+                                    {
+                                        <div class="chat_tab_read">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img src="~/img/user.png" class="img_chat img-fluid" alt="" />
+                                                </div>
+                                                <div class="col-md-9 chat_info">
+                                                    <p class="badge badge-pill badge-primary">Email: @c.email</p>
+                                                    <span class="badge badge-pill badge-success">FIO: @c.first_name @c.last_name @c.sur_name</span>
+                                                    <p class="name_info">ID: @c.id</p>
+                                                    <p class="name_info">IIN: @c.iin</p>
+                                                    <p class="name_info">Position : @if (c.position == 1)
+                                                    {<span class="badge badge-light">Executive</span>}
+                                                    else
+                                                    { <span class="badge badge-light">Employee</span>}</p>
+                                                    <span class="badge badge-pill badge-info">Telefon: @c.tel_number</span>
+                                                    <p class="name_info">Register day: @c.register_day</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <p class="chat_message">Not other users</p>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                @*Company setting*@
+                <div class="tab-pane fade" id="v-pills-company-settings" role="tabpanel" aria-labelledby="v-pills-company-setting-tab">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-company-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-company-tab" data-toggle="tab" href="#nav-company" role="tab" aria-controls="nav-home" aria-selected="true">Company profile</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-companyContent">
+                        <div class="tab-pane fade show active" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
+                            <ul class="list-group marginTop">
+                                <li class="list-group-item active">Company name : @Model.Company.company_name</li>
+                                <li class="list-group-item">Country : @Model.Company.company_country</li>
+                                <li class="list-group-item">Address : @Model.Company.address</li>
+                                <li class="list-group-item">CEO : @Model.Company.ceo_name</li>
+                                <li class="list-group-item">Bank details : @Model.Company.bank_detail</li>
+                                <li class="list-group-item">Post index : @Model.Company.post_index</li>
+                                <li class="list-group-item">Site : <a href="http://@Model.Company.site" target="_blank">@Model.Company.site</a></li>
+                                <li class="list-group-item">Telefon : @Model.Company.tell</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                @*Department setting*@
+                <div class="tab-pane fade" id="v-pills-departments-settings" role="tabpanel" aria-labelledby="v-pills-departments-settings-tab">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-all-department-tab" data-toggle="tab" href="#nav-all-department" role="tab" aria-controls="nav-all-department" aria-selected="true">All company departments</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-departmentContent">
+                        <div class="tab-pane fade show active" id="nav-all-department" role="tabpanel" aria-labelledby="nav-all-department-tab">
+                            @foreach (var dpt in Model.Departments)
+                            {
+                                <div class="card marginTop">
+                                    <h5 class="card-header">@dpt.dpt_name</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Information</h5>
+                                        <p class="card-text">@dpt.dpt_description</p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="~/Content/DataPicker/bootstrap-datepicker.min.css" rel="stylesheet" />
+<script src="~/Scripts/InputMask/jquery.inputmask.bundle.js"></script>
+<script src="~/Scripts/DataPicker/bootstrap-datepicker.min.js"></script>
+<script src="~/Scripts/JavaScript/personalpage.js"></script>
+

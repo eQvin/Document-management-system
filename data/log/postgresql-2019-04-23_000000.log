@@ -1,0 +1,10 @@
+2019-04-23 17:45:06.283 +06 [16292] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-04-23 17:45:06.283 +06 [1156] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-04-23 17:45:06.286 +06 [17684] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-04-23 17:45:06.286 +06 [17628] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-04-23 18:47:55.937 +06 [6128] ��������������:  worker took too long to start; canceled
+2019-04-23 18:48:02.695 +06 [13656] ��������������:  autovacuum worker started without a worker entry

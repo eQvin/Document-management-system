@@ -1,0 +1,30 @@
+2019-03-31 15:08:05.789 +06 [6052] ��������������:  worker took too long to start; canceled
+2019-03-31 15:08:11.283 +06 [17496] ��������������:  autovacuum worker started without a worker entry
+2019-03-31 20:09:11.848 +06 [20248] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:09:11.848 +06 [20248] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:09:11.987 +06 [20248] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:09:11.987 +06 [20248] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:09:12.168 +06 [20248] ОШИБКА:  отношение "dbo.EdmMetadata" не существует (символ 51)
+2019-03-31 20:09:12.168 +06 [20248] ОПЕРАТОР:  SELECT "Extent1"."Id", "Extent1"."ModelHash" FROM "dbo"."EdmMetadata" AS "Extent1" ORDER BY "Extent1"."Id" DESC  LIMIT 1
+2019-03-31 20:15:06.228 +06 [7988] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:15:06.228 +06 [7988] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:15:06.335 +06 [7988] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:15:06.335 +06 [7988] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:15:06.525 +06 [7988] ОШИБКА:  отношение "dbo.EdmMetadata" не существует (символ 51)
+2019-03-31 20:15:06.525 +06 [7988] ОПЕРАТОР:  SELECT "Extent1"."Id", "Extent1"."ModelHash" FROM "dbo"."EdmMetadata" AS "Extent1" ORDER BY "Extent1"."Id" DESC  LIMIT 1
+2019-03-31 20:18:48.198 +06 [7988] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-31 20:31:14.019 +06 [1132] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:31:14.019 +06 [1132] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:31:14.086 +06 [1132] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:31:14.086 +06 [1132] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:31:14.282 +06 [1132] ОШИБКА:  отношение "dbo.EdmMetadata" не существует (символ 51)
+2019-03-31 20:31:14.282 +06 [1132] ОПЕРАТОР:  SELECT "Extent1"."Id", "Extent1"."ModelHash" FROM "dbo"."EdmMetadata" AS "Extent1" ORDER BY "Extent1"."Id" DESC  LIMIT 1
+2019-03-31 20:35:15.673 +06 [1132] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2019-03-31 20:36:55.913 +06 [14728] ОШИБКА:  отношение "public.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:36:55.913 +06 [14728] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "public"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:36:55.986 +06 [14728] ОШИБКА:  отношение "dbo.__MigrationHistory" не существует (символ 82)
+2019-03-31 20:36:55.986 +06 [14728] ОПЕРАТОР:  SELECT "GroupBy1"."A1" AS "C1" FROM (SELECT CAST (count(1) AS int4) AS "A1" FROM "dbo"."__MigrationHistory" AS "Extent1") AS "GroupBy1"
+2019-03-31 20:36:56.209 +06 [14728] ОШИБКА:  отношение "dbo.EdmMetadata" не существует (символ 51)
+2019-03-31 20:36:56.209 +06 [14728] ОПЕРАТОР:  SELECT "Extent1"."Id", "Extent1"."ModelHash" FROM "dbo"."EdmMetadata" AS "Extent1" ORDER BY "Extent1"."Id" DESC  LIMIT 1

@@ -1,0 +1,68 @@
+﻿<div class="container">
+    <form action="/Home/Upload" id="company-form" method="post">
+        <div class="form-group row">
+            <label for="company-name-input" class="col-2 col-form-label">Company name</label>
+            <div class="col-10">
+                <input class="form-control " name="company_name" type="text" readonly placeholder="LLC 'Halyk'" value="@ViewBag.CompanyName"  id="company-name-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="company-country-input" class="col-2 col-form-label">Company country</label>
+            <div class="col-10">
+                <input class="form-control" type="text" name="company_country" required placeholder="Kazakhstan" id="company-country-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="address-input" class="col-2 col-form-label">Fact address</label>
+            <div class="col-10">
+                <input class="form-control" type="text" name="address" required placeholder="Almaty,Abay 22" id="address-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="ceo-name-input" class="col-2 col-form-label">CEO name</label>
+            <div class="col-10">
+                <input class="form-control" type="text" name="ceo_name" required placeholder="Timothy Donald Cook" id="ceo-name-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="bank-detail-input" class="col-2 col-form-label">Bank details</label>
+            <div class="col-10">
+                <input class="form-control" type="text" name="bank_detail" required placeholder="БИН 930740000137 БИК SABRKZKA" id="bank-detail-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="post-index-input" class="col-2 col-form-label">Post index</label>
+            <div class="col-10">
+                <input class="form-control" type="text" name="post_index" required placeholder="050004" id="post-index-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="web-site-input" class="col-2 col-form-label">Web Site</label>
+            <div class="col-10">
+                <input class="form-control" type="url" name="site" required placeholder="https://www.google.com/" id="web-site-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="tell-number-input" class="col-2 col-form-label">Tellefon number</label>
+            <div class="col-10">
+                <input class="form-control" type="tel" name="tell" required placeholder="+7 (___) ___-__-__" id="tell-number-input">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-10"></label>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" required id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">I agree to the Software and Service Agreement</label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="~/Scripts/InputMask/jquery.inputmask.bundle.js"></script>
+<script>
+    $("#tell-number-input").inputmask({ "mask": "+7 (999) 999-99-99", "clearIncomplete": true, showMaskOnHover: false });
+</script>

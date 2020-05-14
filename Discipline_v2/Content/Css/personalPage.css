@@ -1,0 +1,136 @@
+.particles {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.marginTop-1{
+    margin-top:2%;
+}
+
+.marginTop{
+    margin-top:5%;
+}
+.marginLeft{
+    margin-left:5%;
+}
+
+/*------------------------------------Сообщения------------------------------------*/
+.chat_message {
+    font-family: Calibri,Arial,sans-serif;
+    font-weight: 400;
+    text-decoration:none;
+    font-size: 30px;
+    overflow:hidden;
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    text-decoration:none !important;
+}
+
+.chat_message:hover:focus{
+    text-decoration:none !important;
+    color:#725ac1;
+}
+
+.chat_tab {
+    text-decoration:none !important;
+    border:none;
+}
+.chat_tab:hover:focus{
+    text-decoration:none !important;
+    border:none;
+}
+
+.chat_tab_read {
+    text-decoration:none !important;
+    margin-top: 30px;
+    margin-bottom:60px;
+    border-radius: 2px;
+    overflow:hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20.2px rgba(0, 0, 0, 0.09);
+    width: 100%;
+    position: relative;
+    height: 130px;
+    padding: 10px 10px 10px 10px;
+}
+
+.chat_info {
+    padding-left: 5%;
+    text-decoration:none !important;
+}
+
+.img_chat {
+    width: 100px;
+    height: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+
+.name_info {
+    font-family: Calibri,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333 !important;
+}
+
+
+
+.button_chat {
+    width: 100%;
+    height: 35px;
+    margin-top: 40px;
+    border-radius: 3px;
+    background-image: url(/img/mail.svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 25px 25px;
+    background-position: 10px 5px;
+    border: 1px solid #725ac1;
+    background-color: #fff;
+    color: #725ac1;
+    font-size: 18px;
+    transition-property: background-color,color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+}
+
+    .button_chat:hover, .button_chat:focus {
+        color: #051937;
+        border: 1px solid #051937;
+    }
+
+
+.date_info {
+    font-family:Calibri,Arial,sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.text_info {
+    font-family: Calibri,Arial,sans-serif;
+    font-size: 18px;
+    color: #888;
+}
+
+
+.text_div {
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+.footer {
+    margin-top:80px;
+}

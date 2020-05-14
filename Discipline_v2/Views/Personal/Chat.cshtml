@@ -1,0 +1,236 @@
+﻿@model List<Discipline_v2.Models.ChatModels.ChatModel>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Discipline - Chat</title>
+    <link rel="icon" href="~/img/favicon/apple-touch-icon.png" type="image/png">
+    <link rel="shortcut icon" href="~/img/favicon/apple-touch-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="~/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/img/favicon/apple-touch-icon-114x114.png">
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Content/css/Chatview.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Discipline - Chat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="@Url.Action("Index","Personal")">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#0" class="nav-link">@ViewBag.Email</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="@Url.Action("LogOut","Home")" class="nav-link">Exit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="particles" id="particles-js"></div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="header_chat">
+            <div class="row">
+                <div class="col-sm-3 ">
+                    <a href="@Url.Action("Index","Personal")" class="return_header"><span class="glyphicon glyphicon-chevron-left"></span> < -- back</a>
+                </div>
+                <div class="col-sm-6 ">
+                    <label class="user_header">@ViewBag.ConvName</label>
+
+                </div>
+                <div class="col-sm-3 ">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="chat_body" id="chat_body">
+            @if (Model.Count != 0)
+            {
+                foreach (var msg in Model)
+                {
+                    if (msg.sender == 0)
+                    {
+                        <div class="chat_user">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="~/img/user.png" class="chat_icon img-fluid" />
+                                </div>
+                                <div class="col-md-9 chat_text" id="chat">
+                                    <div class="chat_text_CompanionName">@ViewBag.ConvName <span class="chat_date">@msg.date</span></div>
+                                    @if (msg.msg_type == "msg")
+                                    {
+                                        <div class="chat_text_contentComp"> @msg.msg</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="chat_text_contentComp"> <img src="@msg.msg" class="img-thumbnail image_chat" /></div>
+                                    }
+
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="chat_user">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-9 chat_text" id="chat">
+                                    <div class="chat_text_userName">@ViewBag.FullName <span class="chat_date">@msg.date</span> </div>
+                                    @if (msg.msg_type == "msg")
+                                    {
+                                        <div class="chat_text_contentUser"> @msg.msg</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="chat_text_contentUser"> <img src="@msg.msg" class="img-thumbnail image_chat" /></div>
+                                    }
+
+                                </div>
+                                <div class="col-md-2">
+                                    <img src="~/img/user.png" class="chat_icon img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                }
+            }
+        </div>
+        <div class="footer_chat" id="inputForm">
+            <div class="row">
+                <div class="col-md-12 text_input">
+                    <img src="~/img/cameraviolet.svg" class="img_upload" id="img_upload" />
+                    <input id="uploadFile" class="inputfile" multiple type="file" accept=".jpg,.jpeg,.png" name="upload" data-multiple-caption="Выбрано {count} фото( Макс. 3 )" />
+                    <textarea id="txtMessage" rows="2" placeholder="Send message..." class="textarea" maxlength="190" autofocus></textarea>
+                    <input type="image" src="~/img/send-button.svg" onclick="myFunction()" class="send_btn" id="send_btn" value="" />
+                </div>
+            </div>
+            <span class="upload_text">Format - JPEG or PNG, weight - no more than 10 megabytes.</span>
+            <output id="list"></output>
+        </div>
+
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    <footer class="py-2 bg-light fixed-bottom">
+        <div class="container">
+            <p class="m-0 text-center">Copyright &copy; Your Website 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/Scripts/jquery/jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/particles/particles.js"></script>
+    <script type="text/javascript">
+        function myFunction() {
+            var text = document.getElementById("txtMessage").value;
+            var chat_id = @ViewBag.ConvId;
+            if (window.FormData !== undefined) {
+                var fileUpload = $("#uploadFile").get(0);
+                var files = fileUpload.files;
+                var fileData = new FormData();
+                for (var i = 0; i < files.length; i++) {
+                    fileData.append(files[i].name, files[i]);
+                }
+                fileData.append('chatMessage', text);
+                fileData.append('chatId', chat_id);
+                $.ajax({
+                    url: '/Personal/ChatIn',
+                    type: "POST",
+                    contentType: false,
+                    processData: false,
+                    data: fileData,
+                    success: function (result) {
+                    },
+                    error: function (result) {
+                        window.location.reload();
+
+                    }
+                });
+            }
+        }
+        $(document).ready(function() {
+            var objDiv = document.getElementById("chat_body");
+            objDiv.scrollTop = objDiv.scrollHeight;
+        });
+        var k = 1;
+        function handleFileSelect(evt) {
+            var files = evt.target.files;
+            k++;
+            for (var i = 0, f; f = files[i]; i++) {
+                if (!f.type.match('image.*')) {
+                    continue;
+                }
+                var reader = new FileReader();
+                reader.onload = (function (theFile) {
+                    return function (e) {
+                        var span = document.createElement('span');
+                        span.innerHTML = ['<img class="thumb" src="', e.target.result,
+                                          '" title="', escape(theFile.name), '"/>'].join('');
+                        document.getElementById('list').insertBefore(span, null);
+                    };
+                })(f);
+                reader.readAsDataURL(f);
+                if(i==2)
+                {
+                    break;
+                }
+            }
+        }
+        setTimeout(function() {window.location.reload("/Chat/ChatView")}, 20000)
+        document.getElementById('uploadFile').addEventListener('change', handleFileSelect, false);
+        $('#img_upload').click(function () {
+            if (k == 1)
+            {
+                $("input[type='file']").trigger('click');
+            }
+            else
+            {
+                document.getElementById('list').innerHTML = '';
+                $("input[type='file']").trigger('click');
+            }
+        })
+        $(document).keyup(function (event) {
+            if (event.keyCode === 13) {
+                $("#send_btn").click();
+                document.getElementById("txtMessage").focus();
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>

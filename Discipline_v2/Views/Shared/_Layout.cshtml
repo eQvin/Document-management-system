@@ -1,0 +1,145 @@
+﻿@model Discipline_v2.Models.BaseModel
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Discipline</title>
+    <link rel="icon" href="~/img/favicon/apple-touch-icon.png" type="image/png">
+    <link rel="shortcut icon" href="~/img/favicon/apple-touch-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="~/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/img/favicon/apple-touch-icon-114x114.png">
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Content/Css/main.css" rel="stylesheet" />
+    <link href="~/Content/css/login.css" rel="stylesheet" />
+    <link href="~/Content/Css/reset.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery/jquery.min.js"></script>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index","Home")">Discipline - Document Management System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="@Url.Action("Index","Home")">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    @if (!Request.IsAuthenticated)
+                    {
+                        <li class="nav-item main-nav">
+                            <a href="#0" class="nav-link cd-signin">Login</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                @ViewBag.Email
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/Personal/Index">Personal office</a>
+                                <a class="dropdown-item" href="/Personal/Index">Document flow</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/Personal/Index">Settings</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="@Url.Action("LogOut","Home")" class="nav-link">Exit</a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="particles" id="particles-js"></div>
+    <div id="wrap">
+        <main class="main container clear-top">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-copyright text-center py-3">
+            © @DateTime.Now.Year Discipline - Document Management System. Programmed in ASP.Net MVC 5 (C#)
+        </div>
+    </footer>
+
+    <!-- Footer -->
+    <!--login/Register------------------------------------------------------>
+    <div class="cd-user-modal">
+        <!-- все формы на фоне затемнения-->
+        <div class="cd-user-modal-container">
+            <!-- основной контейнер -->
+            <ul class="cd-switcher">
+                <li><a href="#0">Login</a></li>
+                <li><a href="#0">Registration</a></li>
+            </ul>
+            <div id="cd-login">
+                <!-- форма входа -->
+                <div class="cd-form">
+                    <p class="error_login" id="errorLogin"></p>
+                    <p class="fieldset">
+                        <input class="full-width has-padding has-border" placeholder="E-mail*" type="email" id="email" title="Первая буква заглавная, остальные строчные" required="required" minlength="1" maxlength="50" autofocus="autofocus" />
+                    </p>
+                    <p class="fieldset">
+                        <input class="full-width has-padding has-border" placeholder="Password*" type="password" id="password" required="required" minlength="1" maxlength="20" />
+                        <a href="#0" class="hide-password"><span class="view_pass" title="Показать пароль"></span></a>
+                    </p>
+                    <p class="fieldset">
+                        <button type="button" onclick="myLoginFunction()" value="index" class="full-width input_button input_login">Sign In</button>
+                    </p>
+
+                </div>
+            </div> <!-- конец блока с формой входа -->
+            <div id="cd-signup">
+                <!-- блок с формой регистрации -->
+                <div class="cd-form">
+                    <p class="error_reg" id="errorReg"></p>
+                    <p class="fieldset">
+                        <input id="fname" class="full-width has-padding has-border" placeholder="Name" title="Первая буква заглавная, остальные строчные" required="required" minlength="1" maxlength="50" autofocus="autofocus" />
+                    </p>
+                    <p class="fieldset">
+                        <input id="cname" class="full-width has-padding has-border" placeholder="Company name" title="Первая буква заглавная, остальные строчные" required="required" minlength="1" maxlength="50" />
+                    </p>
+                    <p class="fieldset">
+                        <input id="regEmail" class="full-width has-padding has-border" type="email" name="email" placeholder="E-mail*" required="required" maxlength="40" />
+                    </p>
+                    <p class="fieldset">
+                        <input id="regPass" class="full-width has-padding has-border" title="Длина не менее 6 символов ( и не более 20 )" name="password" placeholder="Password" minlength="6" type="password" required="required" maxlength="20" />
+                        <a href="#0" class="hide-password"><span class="view_pass" title="Показать пароль"></span></a>
+                    </p>
+
+                    <p class="fieldset">
+                        <button type="button" class="full-width input_button input_reg" onclick="myRegisterFunction()">Create company</button>
+                    </p>
+                </div>
+            </div> <!-- cd-signup -->
+            <a href="#0" class="cd-close-form">Close</a>
+        </div> <!-- cd-user-modal-container -->
+    </div> <!-- cd-user-modal -->
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="~/Scripts/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/JavaScript/login.js"></script>
+    <script src="~/Scripts/particles/particles.js"></script>
+
+</body>
+
+</html>

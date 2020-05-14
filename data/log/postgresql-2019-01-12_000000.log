@@ -1,0 +1,1 @@
+2019-01-17 13:28:47.034 +06 [2352] СООБЩЕНИЕ:  не удалось переименовать временный файл статистики из "pg_stat_tmp/global.tmp" в "pg_stat_tmp/global.stat": Permission denied

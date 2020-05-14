@@ -1,0 +1,108 @@
+﻿body{
+    padding:10% 10% 10% 10%;
+}
+
+.particles {
+    width: 100%;
+    height: 100%;
+    z-index:1;
+    background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.confirm {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    z-index:2;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 50%;
+    margin:auto;
+    position:relative;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+}
+
+.header_text {
+    font-family:'clearsans',Arial,sans-serif;
+    font-size:14px;
+    text-decoration:none;
+    text-align:right;
+    margin-right:5%;
+    margin-top:10px;
+}
+
+.siw_link{
+    color:#725ac1;
+    font-weight:400;
+    text-decoration:none;
+}
+
+.siw_link:hover , .siw_link:focus{
+    color:#725ac1;
+    font-weight:400;
+    text-decoration:none;
+    border-bottom:1px solid #725ac1;
+}
+
+.img_email {
+    height:100%;
+    max-height:350px;
+    width:100%;
+}
+
+
+.body_title{
+    font-family:clearsans,Arial,sans-serif;
+    font-size:18px;
+    color:#725ac1;
+}
+
+.footer_title{
+    font-family:clearsans,Arial,sans-serif;
+    font-size:18px;
+    color:#333;
+    font-weight:400;
+}
+
+.footer_text{
+    margin-bottom:40px;
+    font-family:clearsans,Arial,sans-serif;
+    font-size:14px;
+    color:#333;
+     font-weight:400;
+}
+
+.footer_link {
+    margin-top:5px;
+}
+
+
+/*-----------------------------------------------АДАПТИВНОСТЬ! 768-991-------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .confirm {
+    width:100%;
+    margin:0;
+}
+}
+/*-----------------------------------------------АДАПТИВНОСТЬ! 576-767-------------------------------------- */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .confirm {
+    width:100%;
+    margin:0;
+}
+}
+
+/*-----------------------------------------------АДАПТИВНОСТЬ! 576 minus-------------------------------------- */
+@media (max-width: 575.98px) { 
+        .confirm {
+    width:100%;
+    margin:0;
+}
+
+}

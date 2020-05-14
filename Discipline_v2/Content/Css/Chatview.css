@@ -1,0 +1,265 @@
+﻿.particles {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+
+/*----------------------------Chat---------------------------*/
+
+.header_chat{
+  padding:10px 0px 0px 20px;
+  border-radius: 2px;
+  text-align:center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20.2px rgba(0, 0, 0, 0.09);
+  width: 100%;
+  height:100%;
+  margin-top:100px;
+  margin-bottom:30px;
+}
+
+.search_icon {
+float:right;
+margin-right:30px;
+width:30px;
+height:30px;
+fill:#7d8797;
+}
+
+.return_header {
+	font-family:Calibri,Arial,sans-serif;
+	font-size:16px;
+	text-decoration:none;
+	color:#888;
+}
+
+.glyphicon{
+    margin-bottom:20px;
+}
+
+.return_header:hover , .return_header:focus {
+	font-family:Calibri,Arial,sans-serif;
+	font-size:16px;
+	text-decoration:none;
+}
+
+
+.user_header {
+    text-align:center;
+	font-size:18px;
+	font-family:Calibri,Arial,sans-serif;
+	font-weight:600;
+}
+
+
+.chat_body {
+  padding:20px 20px 20px 20px;
+  margin-top:20px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20.2px rgba(0, 0, 0, 0.09);
+  width: 100%;
+  height:450px;
+ overflow-y: scroll;
+ overflow-x:hidden;
+   line-height: 1.2;
+}
+
+/* Let's get this party started */
+
+.chat_body::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+/* Track */
+
+.chat_body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+ 
+/* Handle */
+
+.chat_body::-webkit-scrollbar-thumb {
+    background: #725ac1; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.chat_body::-webkit-scrollbar-thumb:window-inactive {
+	background: #725ac1; 
+}
+
+
+
+
+.chat_user{
+margin-bottom:40px;
+width: 100%;
+padding:20px 20px 20px 20px;
+}
+.personal{
+    padding:20px 20px 20px 20px;
+}
+
+.personal_area{
+    margin-top:120px;
+}
+
+.chat_icon {
+	margin-left:30px;
+	width:100px;
+	height:100px;
+}
+
+.img_upload {
+    display:none;
+     margin-right:5%;
+width:40px;
+	height:40px;
+}
+
+.chat_text_CompanionName {
+	text-align:left;
+    font-size:18px;
+    margin-top:10px;
+    color:#051937;
+}
+
+.chat_text_contentComp{
+    width:90%;
+    height:100%;
+    text-align:left;
+    font-size:18px;
+    margin-top:10px;
+    color:#888;
+}
+.chat_text_contentUser{
+    width:90%;
+    height:100%;
+    font-size:18px;
+    margin-top:10px;
+    text-align:right;
+    margin-left:10%;
+    color:#888;
+}
+
+ .thumb {
+    width:100px;
+    height: 100px;
+    border: 2px solid #725ac1;
+    margin: 0px 10px 0 0;
+  }
+.upload_text{
+    display:none;
+    font-family:'clearsans',Arial,sans-serif;
+    font-size:14px;
+    color:#888;
+}
+
+
+
+.chat_text_userName{
+    text-align:right;
+    font-size:18px;
+    margin-top:10px;
+    color:#725ac1;
+}
+
+.chat_text{
+    word-wrap: break-word;
+}
+
+.image_chat{
+   border:2px solid #725ac1;
+   width:50%;
+   height:50%;
+}
+
+.image_chat:hover ,.image_chat:focus{
+    border:2px solid #051937;
+}
+
+
+.chat_text_green {
+	text-align:right;
+    font-size:18px;
+    height:30px;
+    margin-top:10px;
+}
+
+.chat_date{
+color:#888;
+font-size:14px;
+}
+
+.footer_chat {
+
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+.text_input{
+    display:flex;
+    margin-bottom:10px;
+}
+
+.textarea {
+	border:1px solid #725ac1;
+    border-radius:4px;
+	width:100%;
+	height:40px;
+    resize: none;
+}
+
+.send_btn {
+ margin-left:7%;
+ width:40px;
+ height:40px;
+}
+
+.inputfile{
+    opacity:0;
+    width:0px;
+    display:none;
+    visibility:hidden;
+}
+
+.img_upload{
+    cursor:pointer;
+}
+
+
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	z-index:99;
+	height:150%;
+	width:100%;
+}
+
+
+.popup_img {
+    border:2px solid #725ac1;
+    padding:5px 5px 5px 5px;
+	position: relative;
+	margin:0 auto;
+	z-index:100;
+	max-height:70%;
+	max-width:70%;
+	margin:160px 0 0 0;
+}

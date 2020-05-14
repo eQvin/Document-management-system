@@ -1,0 +1,231 @@
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ApplicationInsights.config
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\csc.exe
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\vbc.exe
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\VBCSCompiler.exe
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Discipline_v2.dll.config
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Discipline_v2.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Discipline_v2.pdb
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Antlr3.Runtime.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\EntityFramework.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\EntityFramework.SqlServer.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.Web.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.WindowsServer.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.ApplicationInsights.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Mono.Security.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Newtonsoft.Json.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Npgsql.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Npgsql.EntityFramework.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Helpers.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Mvc.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Optimization.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Razor.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.WebPages.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.WebPages.Razor.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\WebGrease.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\EntityFramework.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\EntityFramework.SqlServer.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.Web.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.AI.WindowsServer.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.ApplicationInsights.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Npgsql.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Npgsql.EntityFramework.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Helpers.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Mvc.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Optimization.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.Razor.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.WebPages.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\System.Web.WebPages.Razor.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Antlr3.Runtime.pdb
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\Newtonsoft.Json.xml
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\de\Npgsql.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\es\Npgsql.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\fi\Npgsql.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\fr\Npgsql.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ja\Npgsql.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\zh-CN\Npgsql.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.Helpers.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.Mvc.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.Optimization.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.Razor.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.WebPages.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\obj\Debug\Discipline_v2.csprojResolveAssemblyReference.cache
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\obj\Debug\Discipline_v2.dll
+C:\Q\UNIVERSITY\DIPLOMA\Projects\Discipline_v2\Discipline_v2\obj\Debug\Discipline_v2.pdb
+C:\Users\eQvin\Desktop\123\Discipline_v2\obj\Debug\Discipline_v2.csprojResolveAssemblyReference.cache
+C:\Users\eQvin\Desktop\123\Discipline_v2\obj\Debug\Discipline_v2.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\obj\Debug\Discipline_v2.pdb
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ApplicationInsights.config
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\csc.exe
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\vbc.exe
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\VBCSCompiler.exe
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Discipline_v2.dll.config
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Discipline_v2.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Discipline_v2.pdb
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Antlr3.Runtime.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\EntityFramework.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\EntityFramework.SqlServer.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.Web.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Mono.Security.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Newtonsoft.Json.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Npgsql.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Npgsql.EntityFramework.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Helpers.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Mvc.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Optimization.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Razor.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.WebPages.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.WebPages.Razor.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\WebGrease.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\EntityFramework.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\EntityFramework.SqlServer.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.Web.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Npgsql.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Npgsql.EntityFramework.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Helpers.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Mvc.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Optimization.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.Razor.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.WebPages.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\System.Web.WebPages.Razor.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Antlr3.Runtime.pdb
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\Newtonsoft.Json.xml
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\de\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\es\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\fi\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\fr\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ja\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\zh-CN\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.Razor.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\eQvin\Desktop\123\Discipline_v2\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ApplicationInsights.config
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\csc.exe
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\vbc.exe
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\VBCSCompiler.exe
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Discipline_v2.dll.config
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Discipline_v2.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Discipline_v2.pdb
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Antlr3.Runtime.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\EntityFramework.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\EntityFramework.SqlServer.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.Web.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Mono.Security.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Newtonsoft.Json.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Npgsql.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Npgsql.EntityFramework.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Helpers.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Mvc.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Optimization.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Razor.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.WebPages.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.WebPages.Razor.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\WebGrease.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\EntityFramework.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\EntityFramework.SqlServer.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.Web.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Npgsql.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Npgsql.EntityFramework.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Helpers.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Mvc.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Optimization.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.Razor.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.WebPages.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Web.WebPages.Razor.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Antlr3.Runtime.pdb
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Newtonsoft.Json.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\de\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\es\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\fi\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\fr\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ja\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\zh-CN\Npgsql.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.Razor.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\obj\Debug\Discipline_v2.csprojResolveAssemblyReference.cache
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\obj\Debug\Discipline_v2.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\obj\Debug\Discipline_v2.pdb
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Z.EntityFramework.Plus.EF6.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\Z.EntityFramework.Plus.EF6.xml
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\HtmlAgilityPack.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\System.Collections.Immutable.dll
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\HtmlAgilityPack.pdb
+C:\Users\eQvin\Desktop\Dariga Diplom\Dariga Program\Final version\Discipline_v2\bin\HtmlAgilityPack.xml
